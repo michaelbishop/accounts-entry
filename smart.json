@@ -10,7 +10,7 @@
       "git": "git@github.com:EventedMind/iron-router.git",
       "branch": "dev"
     },
-    "just-i18n": "0.2.1",
+    "just-i18n": "0.2.2",
     "accounts-t9n": {
       "git": "git@github.com:BeDifferential/meteor-accounts-t9n.git"
     }
