@@ -8,7 +8,7 @@
   "packages": {
     "iron-router": {
       "git": "git@github.com:EventedMind/iron-router.git",
-      "branch": "blaze-integration"
+      "branch": "dev"
     },
     "just-i18n": "0.2.1",
     "accounts-t9n": {
