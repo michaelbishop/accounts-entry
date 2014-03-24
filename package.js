@@ -24,8 +24,6 @@ Package.on_use(function(api) {
     'client/helpers.coffee',
     'client/views/signIn/signIn.html',
     'client/views/signIn/signIn.coffee',
-    'client/views/signUp/signUp.html',
-    'client/views/signUp/signUp.coffee',
     'client/views/forgotPassword/forgotPassword.html',
     'client/views/forgotPassword/forgotPassword.coffee',
     'client/views/resetPassword/resetPassword.html',

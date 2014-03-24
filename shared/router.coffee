@@ -6,12 +6,6 @@ Router.map ->
       Session.set('entryError', undefined)
       Session.set('buttonText', 'in')
 
-  @route "entrySignUp",
-    path: "/sign-up"
-    before: ->
-      Session.set('entryError', undefined)
-      Session.set('buttonText', 'up')
-
   @route "entryForgotPassword",
     path: "/forgot-password"
     before: ->

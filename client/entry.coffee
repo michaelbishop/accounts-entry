@@ -6,7 +6,6 @@ AccountsEntry =
     passwordSignupFields: 'EMAIL_ONLY'
     emailToLower: true
     usernameToLower: false
-    entrySignUp: '/sign-up'
 
   isStringEmail: (email) ->
     emailPattern = /^([\w.-]+)@([\w.-]+)\.([a-zA-Z.]{2,6})$/i 
@@ -18,10 +17,6 @@ AccountsEntry =
     i18n.setDefaultLanguage "en"
     if appConfig.language
       i18n.setLanguage appConfig.language
-
-    if appConfig.signUpTemplate
-      signUpRoute = Router.routes['entrySignUp']
-      signUpRoute.options.template = appConfig.signUpTemplate
 
   signInRequired: (router, extraCondition) ->
     extraCondition ?= true
