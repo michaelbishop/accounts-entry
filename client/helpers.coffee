@@ -15,10 +15,6 @@ Handlebars.registerHelper 'accountButtons', ->
 Handlebars.registerHelper 'capitalize', (str) ->
   str.charAt(0).toUpperCase() + str.slice(1)
 
-Handlebars.registerHelper 'signupClass', ->
-  if Accounts.oauth && Accounts.oauth.serviceNames().length > 0
-    "collapse"
-
 Handlebars.registerHelper 'otherLoginServices', ->
   Accounts.oauth &&
   Accounts.oauth.serviceNames().length > 0

@@ -11,9 +11,6 @@ Meteor.startup ->
   @AccountsEntry = AccountsEntry
 
   Meteor.methods
-    entryValidateSignupCode: (signupCode) ->
-      not AccountsEntry.settings.signupCode or signupCode is AccountsEntry.settings.signupCode
-
     accountsCreateUser: (username, email, password) ->
       if username
         Accounts.createUser
